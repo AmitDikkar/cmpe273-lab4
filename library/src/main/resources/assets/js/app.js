@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
     var elements = $('td[title="status"]');
     for( i=0; i<elements.length; i++ ){
     	var statusIs = elements[i].innerHTML;
